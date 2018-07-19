@@ -1,0 +1,132 @@
+.parent
+{
+  display: flex;
+  flex-direction: row;
+  border:3px solid red;
+}
+.childone
+{
+  border:3px solid blue;
+  padding:3%;
+  margin: 2%;
+  width:30%;
+text-align: center;
+font-size: 20px;
+  border-radius: 0%;
+}
+img{
+  width:40%;
+  border: 5px solid pink;
+  border-radius: 100%;
+  box-shadow: 5px 2px 3px black;
+  display: block;margin-left: auto;
+  margin-right: auto;
+}
+.childtwo
+{
+  border:3px solid blue;
+  padding:3%;
+  margin: 2%;
+  width:70%;
+
+  border-radius: 0%;
+}
+
+@media only screen and (min-width:120px) and (max-width:480px)
+{
+  .parent
+  {
+    display: flex;
+    flex-direction: column;
+    border:3px solid #340468;
+  }
+  .childone
+  {
+    border:3px solid blue;
+    padding:3%;
+    margin: 2%;
+    width:90%;
+  text-align: center;
+  font-size: 20px;
+  background-color: #A886C0;
+    border-radius: 0%;
+  }
+
+  .childtwo
+  {
+    border:3px solid blue;
+    padding:3%;
+    margin: 2%;
+    width:90%;
+    background-color: #A886C0;
+    border-radius: 0%;
+  }
+  a,h3,h2,p{
+    word-wrap: break-word;
+  }
+
+  }
+  @media only screen and (min-width:481px) and (max-width:768px)
+  {
+    .parent
+    {
+      display: flex;
+      flex-direction: column;
+      border:3px solid #340468;
+    }
+    .childone
+    {
+      border:3px solid blue;
+      padding:3%;
+      margin: 2%;
+      width:90%;
+    text-align: left;
+    font-size: 20px;
+    background-color: skyblue;
+      border-radius: 0%;
+    }
+
+    .childtwo
+    {
+      border:3px solid blue;
+      padding:3%;
+      margin: 2%;
+      width:90%;
+      background-color: skyblue;
+      border-radius: 0%;
+    }
+    a,h3,h2,p{word-wrap: break-word;
+    }
+  }
+  @media only screen and (min-width: 769px) and (max-width: 1024px){
+
+    .parent
+    {
+      display: flex;
+      flex-direction: row;
+      border:3px solid #340468;
+    }
+    .childone
+    {
+      border:3px solid blue;
+      padding:3%;
+      margin: 2%;
+      width:90%;
+    text-align: left;
+    font-size: 20px;
+    background-color: #D32E6A;
+      border-radius: 0%;
+    }
+
+    .childtwo
+    {
+      border:3px solid blue;
+      padding:3%;
+      margin: 2%;
+      width:90%;
+      background-color: #D32E6A;
+      border-radius: 0%;
+    }
+    a,h3,h2,p{word-wrap: break-word;
+    }
+  }
