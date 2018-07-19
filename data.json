@@ -7,5 +7,40 @@
 },
 "careerObjective":{
   "info":"To pursue challenges"
+},
+"education":[{
+  "degree":"Btech",
+  "institute":"SRKR COllege",
+  "data":["2016-2020","85%"]
+},
+{
+  "degree":"intermediate",
+  "institute":"Sri Chaitanya college",
+  "data":["2014-2016","97%"]
+},
+{
+  "degree":"SSC",
+  "institute":"KKR Goetham School",
+  "data":["2014","97%"]
 }
+],
+"skills":[
+{
+  "title":"languages",
+  "data":["c","c++","java","ruby","python"]
+},
+{
+  "title":"database",
+  "data":["sql","mysql","oracle"]
+},
+{
+  "title":"operating systems",
+  "data":["sql","mysql","oracle"]
+}
+],
+"achievements":{
+  "data":"certified by bec",
+  "data1":"secured 80% in acadamics"
+}
+
 }
